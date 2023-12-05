@@ -1,0 +1,1258 @@
+@import 
+    'base/base',
+    'components/components',
+    'layout/layout',
+    'pages/page';
+
+
+
+#add_more_rma_policies_clone {
+    display: none;
+}
+/*wps form group breaker css*/
+.wps-form-group__breaker {
+    padding: 15px 0 15px 30px;
+    background-color: #e5f4fe;
+    margin-left: -32px;
+    margin-right: -32px;
+    color: #2196f3;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+/*save_policies_setting_form*/
+#save_policies_setting_form select, 
+#save_policies_setting_form input{
+    margin-left: 0;
+}
+#save_policies_setting_form input[type=date],
+#save_policies_setting_form input[type=datetime-local],
+#save_policies_setting_form input[type=datetime],
+#save_policies_setting_form input[type=email],
+#save_policies_setting_form input[type=month],
+#save_policies_setting_form input[type=number],
+#save_policies_setting_form input[type=password],
+#save_policies_setting_form input[type=search],
+#save_policies_setting_form input[type=tel],
+#save_policies_setting_form input[type=text],
+#save_policies_setting_form input[type=time],
+#save_policies_setting_form input[type=url],
+#save_policies_setting_form input[type=week]{
+    padding: 10px 15px 10px 15px;
+    max-height: 50px;
+}
+#save_policies_setting_form select {
+    min-height: 50px;
+    max-height: 50px;
+}
+#save_policies_setting_form .add_more_rma_policies {
+    padding-bottom: 20px;
+}
+#save_policies_setting_form .add_more_rma_policies:last-child {
+    padding-bottom: 0;
+}
+.add_more_rma_policies select,
+.add_more_rma_policies label, 
+.add_more_rma_policies input,
+.add_more_rma_policies select + span{
+    margin-right: 30px;
+}
+.admin-bar #save_policies_setting_form #wps_rma_add_more,
+.admin-bar #save_policies_setting_form .wps_rma_save_settings{
+    font-size: 14px;
+    padding: 16px 25px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #2196F3;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+}
+.admin-bar #save_policies_setting_form input.wps_rma_save_settings {
+    margin-left: 10px;
+}
+.admin-bar #save_policies_setting_form .wps_rma_policy_condition{
+    min-width: 180px;
+}
+.admin-bar #save_policies_setting_form input.rma_policy_delete{
+    background-color: transparent;
+    border: 1px solid;
+    border-color: rgba(0,0,0,.38);
+    border-radius: 3px;
+}
+#save_policies_setting_form .select2-selection--multiple input[type=search]{
+    padding: 0;
+}
+#save_policies_setting_form .select2-container .select2-selection--multiple{
+    min-height: 50px;
+}
+#save_policies_setting_form input.wps_rma_max_number_days, 
+#save_policies_setting_form .wps_rma_tax_handling,
+#save_policies_setting_form .select2.select2-container.select2-container--default {
+    max-width: 180px;
+    min-width: 180px;
+}
+/*Refund tab form css*/
+.wps-wrael-gen-section-form .wps-form-group .wps-form-group__control .wps-form-select .mdl-textfield__label,
+.wps-wrael-gen-section-form .mdc-text-field+.mdc-text-field-helper-line{
+    padding-left: 0;
+    padding-top: 5px;
+}
+/*dashboard-sidebar*/
+#adminmenuwrap .dashicons-before img{
+    width: 26px;
+    height: auto;
+}
+#adminmenuwrap #adminmenu .submenu-font-size-fix{
+    font-size: 11px;
+}
+/*overview*/
+.wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item .wps-overview__keywords-card {
+    text-align: center;
+}
+.wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item .wps-overview__keywords-card .wps-overview__keywords-text .wps-overview__keywords-heading{
+    font-size: 22px;
+    line-height: 32px;
+}
+.wps-form-group__breaker{
+    font-size: 25px;
+}
+
+.wps_admin_order_msg_history_title .wps_order_heading .reload-icon {
+    width: 30px; 
+}
+
+.thumb img {
+    width:50px;
+}
+
+@media only screen and (max-width: 1140px){
+    .add_more_rma_policies select,
+    .add_more_rma_policies label, 
+    .add_more_rma_policies input{
+        margin-top: 8px;
+    }
+    span.select2.select2-container.select2-container--default {
+        margin-top: 8px;
+    }	
+}
+@media only screen and (max-width: 520px) {
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords{
+        flex-direction: column;
+    }
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+.toplevel_page_wps-plugins div img{
+    width: 20px ! important;
+}
+
+// css for pro tag
+
+.wps-navbar__items .wps_rma_pro_class {
+    position: relative;
+}
+
+.wps-navbar__items .wps_rma_pro_class:before {
+    content: "PRO";
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    background: #b3ffc0;
+    line-height: 1;
+    color: #038018;
+    margin-right: 5px;
+    position: absolute;
+    top: 12px;
+    right: -5px;
+}
+.wps_rma_pro_class_wrap .wps-form-group__control {
+    position: relative;
+}
+
+.wps_rma_pro_class_wrap .wps-form-group__control:before {
+    position: absolute;
+    content: "PRO Feature";
+    z-index: 99;
+    background: #f3fff5;
+    top: -10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    color: #00b81f;
+    font-weight: 600;
+}
+
+.wps_rma_pro_class_wrap .wps-form-group__label {
+    position: relative;
+    overflow: hidden;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+.wps_rma_pro_class_wrap .wps-form-group__label:before {
+    content: "PRO";
+    position: absolute;
+    transform: rotate(45deg);
+    width: 60px;
+    background: #0aa000;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -4px;
+    left: -20px;
+    font-size: 10px;
+    padding: 0 0 10px;
+}
+
+
+/*Global shipping tab css*/
+    #wps_ship_setting #add_fee_button input{
+        margin-bottom: 20px;
+    }
+    #wps_ship_setting tr{
+        vertical-align: top;
+    }
+    #wps_ship_setting th.titledesc, .wps_wrma_shipstation_details_wrapper th{
+        text-align: left;
+    }
+    #wps_ship_setting th, .wps_wrma_shipstation_details_wrapper th{
+        max-width: 200px;
+        min-width: 200px;
+    }
+    #wps_ship_setting td, .wps_wrma_shipstation_details_wrapper td{
+        max-width: calc(100% - 200px);
+    }
+    #wps_ship_setting th, 
+    #wps_ship_setting td{
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    #wps_ship_setting .wps__enable-shipping td{
+        padding-left: 10px;
+    }
+    #wps_ship_setting .wps__enable-global-shipping td{
+        padding-left: 10px;
+    }
+    #wps_ship_setting #add_fee_div td{
+        margin-right: 30px;
+        max-width: 100%;
+    }
+    #wps_ship_setting #add_fee_div td:last-child{
+        margin-right: 0;
+    }
+    #wps_ship_setting .add_fee_tr td{
+        margin-right: 30px;
+        max-width: 100%;
+    }
+    #wps_ship_setting .add_fee_div td:last-child{
+        margin-right: 0;
+    }
+    
+    
+    /*Integration tab css*/
+    .wps_wrma_accord_sec_wrap .form-table th,
+    .wps_wrma_ship_setting_account_display .form-table th{
+        padding: 20px 10px 20px 10px;
+    }
+    .wps_wrma_shipstation_details_wrapper td{
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .wps_rma_shipping_setting input[type=radio]:checked::before{
+        margin-top: 50%;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .wps_wrma_shipstation_details_wrapper td{
+        min-width: 180px;
+    }
+    .wps_wrma_shipstation_details_wrapper td input{
+        width: 100%;
+        margin: 0;
+    }
+    .wps_wrma_shipstation_details_wrapper td select{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .wps-section h4 input {
+        background: transparent;
+        color: #000000;
+        border: 1px solid #2196F3;
+        transition: .3s ease;
+        padding: 10px 25px;
+    }
+    .wps-section h4 input.shipClass{
+        background: transparent;
+        color: #ffffff;
+        background: #2196F3;
+        transition: .3s ease;
+    }
+    .wps_rma_shipping_setting .submit a:hover {
+        color: #ffffff;
+    }
+    .wps_wrma_ship_station label {
+        margin-right: 15px;
+    } 
+    /*new css*/
+    .admin-bar .wps_table h4 {
+        margin: 40px 0 20px;
+    }
+    .wps-wrma-validation__wrap label {
+        width: 140px;
+        display: inline-block; 
+    }
+    
+    /*media-query*/
+    @media only screen and (max-width: 575px) and (min-width: 531px) {
+        #wps_ship_setting #add_fee_div td:nth-child(2) {
+            margin-right: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .show_returnship_label {
+            margin-bottom: 10px;
+        }
+        .wps_wrma_shipstation_details_wrapper table {
+            width: 100%;
+        }
+        .wps_rma_shipping_setting th, 
+        .wps_rma_shipping_setting td,
+        .wps_rma_shipping_setting input,
+        .wps_rma_shipping_setting select,
+        #wps_ship_setting td,
+        .wps_wrma_shipstation_details_wrapper td,
+        .wps-form-group__label,
+        .wps-form-group__control {
+            min-width: 100%;
+            width: 100%;
+            display: block;
+        }
+        .wps-wrma-validation__wrap label {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .admin-bar #save_policies_setting_form input.wps_rma_save_settings {
+           margin: 10px 0 0;
+        }
+    }
+
+    .wps-rma-admin__button,
+    .wps-rma-admin__button.button {
+    font-size: 14px;
+    padding: 16px 25px;
+    display: inline-block;
+    border-radius: 60px;
+    background: #2196F3;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    }
+
+/* Additional Tabs added start */
+.wps-link {
+    color: #000;
+    display: inline-block;
+    font-family: NunitoSans-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    transition: .3s
+}
+
+#wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+.wps-link.active,
+.wps-navbar__items .wps_rma_pro_class,
+.wps_rma_pro_class_wrap .wps-form-group__control,
+.wps_rma_pro_div .wps_rma_shipping_label_setting td,
+.wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_ship_validate_form_wrapper,
+.wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_shipstation_details_wrapper,
+.wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_validate_form_wrapper,
+.wps_rma_pro_div .wps_rma_shiprocket_setting .wps_wrma_shipstation_details_wrapper,
+.wps_rma_pro_div .wps_rma_shiprocket_setting .wps_wrma_validate_form_wrapper {
+    position: relative
+}
+
+.wps-link:after {
+    border-bottom: 3px solid #2196f3;
+    border-radius: 2px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    display: none
+}
+
+.wps-link.active:after {
+    display: block
+}
+
+.wps-navbar .wps-navbar__items li a {
+    padding: 28px 0 10px
+}
+
+#wrma_mail_setting_wrapper .wps_wrma_notification_section {
+    margin: 0 0 25px;
+}
+
+#wps_ship_setting #add_fee_button input {
+    margin-bottom: 20px
+}
+
+#wps_ship_setting tr {
+    vertical-align: top
+}
+
+#wps_ship_setting th.titledesc,
+.wps_wrma_shipstation_details_wrapper th,
+.wps_rma_shipping_label_setting th {
+    font-family: NunitoSans-SemiBold;
+    font-size: 14px;
+    letter-spacing: .3px;
+    line-height: 24px;
+}
+
+#wps_ship_setting th,
+.wps_wrma_shipstation_details_wrapper th {
+    max-width: 200px;
+    min-width: 200px;
+    text-align: left;
+}
+
+#wps_ship_setting td,
+.wps_wrma_shipstation_details_wrapper td {
+    max-width: calc(100% - 200px)
+}
+
+#wps_ship_setting td,
+#wps_ship_setting th {
+    display: inline-block;
+    margin-bottom: 15px
+}
+
+#wps_ship_setting .wps__enable-global-shipping td,
+#wps_ship_setting .wps__enable-shipping td {
+    padding-left: 10px
+}
+
+#wps_ship_setting #add_fee_div td {
+    margin-right: 30px;
+    max-width: 100%
+}
+
+#wps_ship_setting #add_fee_div td:last-child {
+    margin-right: 0
+}
+
+#wps_ship_setting .add_fee_tr td {
+    margin-right: 30px;
+    max-width: 100%
+}
+
+#wps_ship_setting .add_fee_div td:last-child {
+    margin-right: 0
+}
+
+.wps_wrma_accord_sec_wrap .form-table th,
+.wps_wrma_ship_setting_account_display .form-table th {
+    padding: 20px 10px
+}
+
+.wps_wrma_shipstation_details_wrapper td {
+    display: inline-block;
+    margin-bottom: 20px
+}
+
+.wps_rma_shipping_setting input[type=radio]:checked:before {
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.wps_wrma_shipstation_details_wrapper td {
+    min-width: 180px
+}
+
+.wps_wrma_shipstation_details_wrapper td input,
+.wps_wrma_shipstation_details_wrapper td select {
+    margin: 0;
+    width: 100%
+}
+
+.wps-section h4 input {
+    background: transparent;
+    border: 1px solid #2196f3;
+    color: #000;
+    padding: 10px 25px;
+    transition: .3s ease
+}
+
+.wps-section h4 input.shipClass {
+    background: transparent;
+    background: #2196f3;
+    color: #fff;
+    transition: .3s ease
+}
+
+.wps_rma_shipping_setting .submit a:hover {
+    color: #fff
+}
+
+.wps_wrma_ship_station label {
+    margin-right: 15px
+}
+
+.admin-bar .wps_table h4 {
+    margin: 40px 0 20px
+}
+
+.wps-wrma-validation__wrap label {
+    display: inline-block;
+    width: 140px
+}
+
+.wps-rma-admin__button,
+.wps-rma-admin__button.button {
+    background: #2196f3;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    padding: 14px 20px;
+    text-transform: uppercase
+}
+
+@media (max-width:768px) {
+    .wps-header-container {
+        justify-content: flex-start
+    }
+
+    .wps-header-container .wps-header-title {
+        max-width: 100%
+    }
+
+    .wps-header-container .wps-link {
+        margin-top: 15px
+    }
+
+    .wps-header-container span {
+        margin: 15px 5px 0
+    }
+
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media (max-width:992px) {
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+}
+
+@media only screen and (max-width:1140px) {
+
+    .add_more_rma_policies input,
+    .add_more_rma_policies label,
+    .add_more_rma_policies select,
+    span.select2.select2-container.select2-container--default {
+        margin-top: 8px
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords {
+        flex-direction: column
+    }
+
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+}
+
+@media only screen and (max-width:575px) and (min-width:531px) {
+    #wps_ship_setting #add_fee_div td:nth-child(2) {
+        margin-right: 0
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .show_returnship_label,
+    .show_shiprocketintegration,
+    .show_shipintegration {
+        margin-bottom: 10px
+    }
+
+    .wps_wrma_shipstation_details_wrapper table {
+        width: 100%
+    }
+
+    #wps_ship_setting th.titledesc,
+    .wps_wrma_shipstation_details_wrapper th {
+        display: block;
+    }
+
+    #wps_ship_setting td,
+    .wps-form-group__control,
+    .wps-form-group__label,
+    .wps_rma_shipping_setting input,
+    .wps_rma_shipping_setting select,
+    .wps_rma_shipping_setting td,
+    .wps_rma_shipping_setting th,
+    .wps_wrma_shipstation_details_wrapper td {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%
+    }
+
+    .wps-wrma-validation__wrap label {
+        width: 100%
+    }
+
+    .wps_rma_shipping_setting .wps_wrma_accordion label,.wps_rma_shiprocket_setting .wps_wrma_accordion label{
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .admin-bar #save_policies_setting_form input.wps_rma_save_settings {
+        margin: 10px 0 0
+    }
+}
+
+/* Additional Tabs added start */
+.wps-link {
+    color: #000;
+    display: inline-block;
+    font-family: NunitoSans-Bold;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.3s;
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+  .wps-link.active,
+  .wps-navbar__items .wps_rma_pro_class,
+  .wps_rma_pro_class_wrap .wps-form-group__control,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting td,
+  .wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_ship_validate_form_wrapper,
+  .wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_shipstation_details_wrapper,
+  .wps_rma_pro_div .wps_rma_shipping_setting .wps_wrma_validate_form_wrapper,
+  .wps_rma_pro_div .wps_rma_shiprocket_setting .wps_wrma_shipstation_details_wrapper,
+  .wps_rma_pro_div .wps_rma_shiprocket_setting .wps_wrma_validate_form_wrapper {
+    position: relative;
+  }
+  
+  .wps-link:after {
+    border-bottom: 3px solid #2196f3;
+    border-radius: 2px;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    display: none;
+  }
+  
+  .wps-link.active:after {
+    display: block;
+  }
+  
+  .wps-navbar .wps-navbar__items li a {
+    padding: 28px 0 10px;
+  }
+  
+  #wrma_mail_setting_wrapper .wps_wrma_notification_section {
+    margin: 0 0 25px;
+  }
+  
+  #wps_ship_setting #add_fee_button input {
+    margin-bottom: 20px;
+  }
+  
+  #wps_ship_setting tr {
+    vertical-align: top;
+  }
+  
+  #wps_ship_setting th.titledesc,
+  .wps_wrma_shipstation_details_wrapper th,
+  .wps_rma_shipping_label_setting th {
+    font-family: NunitoSans-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+  }
+  
+  #wps_ship_setting th,
+  .wps_wrma_shipstation_details_wrapper th {
+    max-width: 200px;
+    min-width: 200px;
+    text-align: left;
+  }
+  
+  #wps_ship_setting td,
+  .wps_wrma_shipstation_details_wrapper td {
+    max-width: calc(100% - 200px);
+  }
+  
+  #wps_ship_setting td,
+  #wps_ship_setting th {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  
+  #wps_ship_setting .wps__enable-global-shipping td,
+  #wps_ship_setting .wps__enable-shipping td {
+    padding-left: 10px;
+  }
+  
+  #wps_ship_setting #add_fee_div td {
+    margin-right: 30px;
+    max-width: 100%;
+  }
+  
+  #wps_ship_setting #add_fee_div td:last-child {
+    margin-right: 0;
+  }
+  
+  #wps_ship_setting .add_fee_tr td {
+    margin-right: 30px;
+    max-width: 100%;
+  }
+  
+  #wps_ship_setting .add_fee_div td:last-child {
+    margin-right: 0;
+  }
+  
+  .wps_wrma_accord_sec_wrap .form-table th,
+  .wps_wrma_ship_setting_account_display .form-table th {
+    padding: 20px 10px;
+  }
+  
+  .wps_wrma_shipstation_details_wrapper td {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  .wps_rma_shipping_setting input[type=radio]:checked:before {
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .wps_wrma_shipstation_details_wrapper td {
+    min-width: 180px;
+  }
+  
+  .wps_wrma_shipstation_details_wrapper td input,
+  .wps_wrma_shipstation_details_wrapper td select {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .wps-section h4 input {
+    background: transparent;
+    border: 1px solid #2196f3;
+    color: #000;
+    padding: 10px 25px;
+    transition: 0.3s ease;
+  }
+  
+  .wps-section h4 input.shipClass {
+    background: transparent;
+    background: #2196f3;
+    color: #fff;
+    transition: 0.3s ease;
+  }
+  
+  .wps_rma_shipping_setting .submit a:hover {
+    color: #fff;
+  }
+  
+  .wps_wrma_ship_station label {
+    margin-right: 15px;
+  }
+  
+  .admin-bar .wps_table h4 {
+    margin: 40px 0 20px;
+  }
+  
+  .wps-wrma-validation__wrap label {
+    display: inline-block;
+    width: 140px;
+  }
+  
+  .wps-rma-admin__button,
+  .wps-rma-admin__button.button {
+    background: #2196f3;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    padding: 14px 20px;
+    text-transform: uppercase;
+  }
+  button.wps_wrma_save_shiprocket.wps-wrma-save-button.wps-rma-admin__button.button_wps_rma_pro_div{
+    background-color: rgba(0,0,0,.12);
+    color: rgba(0,0,0,.38);
+  }
+  /* Additional Tabs added end */
+  /* Applying Pro tags start */
+  .wps-navbar__items .wps_rma_pro_class {
+      position: relative
+  }
+  
+  .wps-navbar__items .wps_rma_pro_class:before {
+      background: #b3ffc0;
+      border-radius: 2px;
+      color: #038018;
+      content: "PRO";
+      font-size: 10px;
+      line-height: 1;
+      margin-right: 5px;
+      padding: 3px 6px;
+      position: absolute;
+      right: -5px;
+      top: 12px
+  }
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+  .wps_rma_pro_class_wrap .wps-form-group__control,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting td {
+      position: relative
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting td {
+      display: table-cell;
+      padding: 0
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td {
+      width: 100%
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td:before,
+  .wps_rma_pro_class_wrap .wps-form-group__control:before,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting td:before {
+      align-items: center;
+      background: #f3fff5;
+      border-radius: 5px;
+      bottom: 0;
+      color: #00b81f;
+      content: "Pro Feature";
+      display: inline-flex;
+      font-weight: 400;
+      left: 0;
+      padding: 10px;
+      position: absolute;
+      right: 0;
+      top: -10px;
+      z-index: 99
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td:before,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting td:before {
+      bottom: 10px;
+      left: -10px
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping th,
+  .wps_rma_pro_class_wrap .wps-form-group__label,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting th,
+  .wps_rma_pro_div .wps_rma_shipping_setting label,
+  .wps_rma_pro_div .wps_rma_shiprocket_setting label {
+      padding-bottom: 15px;
+      padding-left: 25px;
+      position: relative;
+      padding-right: 10px;
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping th:before,
+  .wps_rma_pro_class_wrap .wps-form-group__label:before,
+  .wps_rma_pro_div .wps_rma_shipping_label_setting th:before,
+  .wps_rma_pro_div .wps_rma_shipping_setting label:before,
+  .wps_rma_pro_div .wps_rma_shiprocket_setting label:before {
+      align-items: center;
+      background: #0aa000;
+      bottom: 4px;
+      color: #fff;
+      content: "PRO";
+      display: inline-flex;
+      font-size: 10px;
+      justify-content: center;
+      left: -15px;
+      padding: 0 0 0;
+      position: absolute;
+      transform: rotate(45deg);
+      width: 60px;
+      clip-path: polygon(0% 0%, 100% 0%, 66% 100%, 34% 100%);
+  }
+  
+  #wps_ship_setting.wps_rma_pro_div table {
+      margin: 0 0 25px;
+      width: 100%
+  }
+  
+  .wps_rma_pro_div span.wps_wrma_input-wrap,
+  .wps_rma_pro_div .wps_wrma_shipstation_details_wrapper td {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .wps_rma_pro_class_wrap .wps-form-group__control .mdc-floating-label {
+      display: none
+  }
+  
+  .wps_rma_pro_div span.wps_wrma_input-wrap:before,
+  .wps_rma_pro_div .wps_wrma_shipstation_details_wrapper td:before {
+      align-items: center;
+      background: #f3fff5;
+      border-radius: 5px;
+      bottom: 0;
+      color: #00b81f;
+      content: "Pro Feature";
+      display: flex;
+      font-weight: 400;
+      justify-content: center;
+      left: 0;
+      padding: 10px;
+      position: absolute;
+      right: -10px;
+      top: 0;
+      z-index: 99
+  }
+  
+  /* Applying Pro tags end */
+  @media (max-width: 768px){
+    .wps-header-container {
+      justify-content: flex-start;
+    }
+    .wps-header-container .wps-header-title {
+      max-width: 100%;
+    }
+    .wps-header-container .wps-link {
+      margin-top: 15px;
+    }
+    .wps-header-container span {
+      margin: 15px 5px 0;
+    }
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .wps-header-container {
+      justify-content: flex-start;
+    }
+  
+    .wps-header-container .wps-header-title {
+      max-width: 100%;
+    }
+  
+    .wps-header-container .wps-link {
+      margin-top: 15px;
+    }
+  
+    .wps-header-container span {
+      margin: 15px 5px 0;
+    }
+  
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 992px){
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media only screen and (max-width: 1140px){
+    .add_more_rma_policies select,
+  .add_more_rma_policies label,
+  .add_more_rma_policies input {
+      margin-top: 8px;
+    }
+  
+    span.select2.select2-container.select2-container--default {
+      margin-top: 8px;
+    }
+    .add_more_rma_policies input,
+  .add_more_rma_policies label,
+  .add_more_rma_policies select,
+  span.select2.select2-container.select2-container--default {
+      margin-top: 8px;
+    }
+  }
+  @media only screen and (max-width: 520px){
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords {
+      flex-direction: column;
+    }
+  
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords {
+      flex-direction: column;
+    }
+  
+    .wps-section .wps-overview__wrapper .wps-overview__content .wps-overview__keywords .wps-overview__keywords-item {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  @media only screen and (max-width: 575px) and (min-width: 531px){
+    #wps_ship_setting #add_fee_div td:nth-child(2) {
+      margin-right: 0;
+    }
+    #wps_ship_setting #add_fee_div td:nth-child(2) {
+      margin-right: 0;
+    }
+  }
+  @media only screen and (max-width: 480px){
+    .show_returnship_label {
+      margin-bottom: 10px;
+    }
+  
+    .wps_wrma_shipstation_details_wrapper table {
+      width: 100%;
+    }
+  
+    .wps_rma_shipping_setting th,
+  .wps_rma_shipping_setting td,
+  .wps_rma_shipping_setting input,
+  .wps_rma_shipping_setting select,
+  #wps_ship_setting td,
+  .wps_wrma_shipstation_details_wrapper td,
+  .wps-form-group__label,
+  .wps-form-group__control {
+      min-width: 100%;
+      width: 100%;
+      display: block;
+    }
+  
+    .wps-wrma-validation__wrap label {
+      width: 100%;
+    }
+    .show_returnship_label,
+  .show_shiprocketintegration,
+  .show_shipintegration {
+      margin-bottom: 10px;
+    }
+  
+    .wps_wrma_shipstation_details_wrapper table {
+      width: 100%;
+    }
+  
+    #wps_ship_setting th.titledesc,
+  .wps_wrma_shipstation_details_wrapper th {
+      display: block;
+    }
+  
+    #wps_ship_setting td,
+  .wps-form-group__control,
+  .wps-form-group__label,
+  .wps_rma_shipping_setting input,
+  .wps_rma_shipping_setting select,
+  .wps_rma_shipping_setting td,
+  .wps_rma_shipping_setting th,
+  .wps_wrma_shipstation_details_wrapper td {
+      display: block;
+      min-width: 100%;
+      max-width: 100%;
+      width: 100%;
+    }
+  
+    .wps-wrma-validation__wrap label {
+      width: 100%;
+    }
+  
+    .wps_rma_shipping_setting .wps_wrma_accordion label, .wps_rma_shiprocket_setting .wps_wrma_accordion label {
+      margin-bottom: 10px;
+      display: block;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .admin-bar #save_policies_setting_form input.wps_rma_save_settings {
+      margin: 10px 0 0;
+    }
+    .admin-bar #save_policies_setting_form input.wps_rma_save_settings {
+      margin: 10px 0 0;
+    }
+  }
+  @media screen and (max-width: 480px){
+      #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping th,
+      .wps_rma_pro_class_wrap .wps-form-group__label,
+      .wps_rma_pro_div .wps_rma_shipping_label_setting th {
+          padding-left: 40px
+      }
+  
+      #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td:before,
+      .wps_rma_pro_class_wrap .wps-form-group__control:before,
+      .wps_rma_pro_div .wps_rma_shipping_label_setting td:before {
+          bottom: -20px;
+          top: 0
+      }
+  
+      #wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+      .wps_rma_pro_div .wps_rma_shipping_label_setting td {
+          display: block
+      }
+  }
+
+  /* Pro link adding start */
+
+.wps-header-container .wps-header-title {
+    flex: 0 0 60%;
+    line-height: 1.25;
+}
+
+@media screen and (max-width: 768px) {
+
+    .wps-header-container .wps-header-title {
+        margin: 0 0 10px;
+        flex: 0 0 100%;
+    }
+
+    .wps-header-container a.wps-link {
+        margin: 5px 0 0;
+    }
+
+    .wps-header-container a.wps_go_pro_link {
+        margin: 5px 10px 0 0;
+    }
+
+    .wps-header-container a.wps-link+span {
+        margin: 0 5px;
+    }
+}
+
+/* Pro link adding end */
+
+/* Pro Popup start */
+
+#wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td,
+.wps_rma_pro_class_wrap .wps-form-group__control,
+.wps_rma_pro_div .wps_rma_shipping_label_setting td {
+    visibility: hidden;
+}
+
+#wps_ship_setting.wps_rma_pro_div .wps__enable-shipping td:before,
+.wps_rma_pro_class_wrap .wps-form-group__control:before,
+.wps_rma_pro_div .wps_rma_shipping_label_setting td:before {
+    visibility: visible;
+}
+
+.wps-rma__popup-for-pro-shadow {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99998;
+    display: none;
+}
+
+span.wps-rma__popup-for-pro-close {
+    display: inline-block;
+    line-height: 14px;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(45deg);
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.wps-rma__popup-for-pro {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    transform: translate(-50%, -50%) scale(0);
+    width: 90%;
+    max-width: 600px;
+    opacity: 0;
+    transition: transform 0.8s ease;
+}
+
+.wps-rma__popup-for-pro.active-pro {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+h2.wps-rma__popup-for-pro-title {
+    font-size: 32px;
+    line-height: 1.25;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+p.wps-rma__popup-for-pro-content {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+.wps-rma__popup-for-pro-link-wrap {
+    text-align: center;
+}
+
+a.wps-rma__popup-for-pro-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background: #0aa000;
+    border: 1px solid #0aa000;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+a.wps-rma__popup-for-pro-link:hover {
+    color: #0aa000;
+    background: transparent;
+}
+.ui-timepicker-standard {
+    z-index: 99 !important;
+}

@@ -1,0 +1,393 @@
+/**
+ * All of the CSS for your common functionality should be
+ * included in this file.
+ */
+
+ table.wps-rma-product__table {
+    min-width: unset;
+}
+
+
+table.wps-rma-product__table thead th:nth-of-type(2) {
+    min-width: 315px;
+    text-align: left;
+}
+
+table.wps-rma-product__table thead th:nth-of-type(2) td.product-name img {
+    max-height: 200px;
+}
+
+table.wps-rma-product__table td.product-name img {
+    max-height: 150px;
+    width: auto;
+}
+
+.wps_wrma_exchanged_products_wrapper .order_details tr {
+    height: unset;
+    border: none;
+}
+
+.wps-rma-form__wrapper .wps_rma_product_table_wrapper tr {
+    height: unset;
+    border: none;
+}
+
+
+.wps-rma-form__wrapper {
+    width: calc(100% + 1px);
+}
+
+.wps-rma-product__table td.product-name .wps-rma-product__wrap {
+    flex-direction: unset;
+    justify-content: flex-start;
+}
+
+.wps-rma-product__table-wrapper input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+.wps-rma-product__table-wrapper .wps-rma-product__wrap .wps_wrma_product_title {
+    text-align: left;
+}
+
+.wps-rma-product__table-wrapper tr input[type=number] {
+    min-width: 80px;
+    width: 100%;
+}
+
+.wps-rma-form__wrapper tbody td:first-child,
+.wps-rma-form__wrapper thead th:first-child,
+.wps-rma-form__wrapper tfoot th:first-child {
+    padding: 15px;
+    text-align: left;
+}
+
+.wps-rma-form__wrapper tbody td.product-select,
+.wps-rma-form__wrapper thead th.product-check {
+    text-align: center;
+}
+
+.wps_wrma_exchanged_products .wps-rma-product__wrap {
+    justify-content: flex-start;
+}
+
+.wps-rma-form__wrapper .wps-rma-product__table-wrapper td,
+.wps-rma-form__wrapper .wps-rma-product__table-wrapper th {
+    border-bottom: 1px solid #ccc;
+}
+
+.wps-rma-form__wrapper table td,
+.wps-rma-form__wrapper table th {
+    padding: 10px;
+}
+
+.wps-rma-form__wrapper .wps_wrma_prod_img.wps-rma__prod-img {
+    width: unset;
+}
+
+.wps-rma-form__wrapper tr th.product-check input {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.wps-rma-form__wrapper .order_details thead th.product-check {
+    min-width: 80px;
+}
+
+.wps-rma-form__wrapper .button {
+    padding: 5px 10px;
+    min-height: 30px;
+    margin-top: 15px;
+}
+
+.theme-flatsome .wps-rma-form__wrapper th:last-child {
+    border-right: 1px solid #ccc;
+}
+
+
+.wps_wrma_exchanged_products_wrapper .order_details thead th:first-of-type {
+    min-width: 100px;
+}
+
+
+.wps-rma-form__wrapper .wps_rma_exchange_to_product_qty {
+    min-width: 80px;
+    max-width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+
+    table.wps-rma-product__table thead th:nth-of-type(2) {
+        width: 180px;
+        min-width: unset !important;
+    }
+
+    .wps-rma-form__wrapper table td,
+    .wps-rma-form__wrapper table th {
+        padding: 5px;
+    }
+
+
+    .wps_wrma_exchanged_products_wrapper .wps-rma-product__wrap,
+    .wps-rma-product__table td.product-name .wps-rma-product__wrap {
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+
+    .wps-rma-form__wrapper .wps_wrma_exchanged_products_wrapper .wps_wrma_product_title,
+    .wps-rma-product__table td.product-name .wps-rma-product__wrap .wps-rma__product-title {
+        margin: 15px 0 0 0;
+        text-align: left;
+    }
+
+    .wps-rma-product__table-wrapper tr input[type=number],
+    .wps_wrma_exchanged_products_wrapper input[type=number] {
+        min-width: 60px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+
+    #wps_wrma_exchange_request_form_wrapper.wps-rma-form__wrapper.wps-rma-form__wrapper,
+    div.wps-rma-form__wrapper.wps-rma-form__wrapper
+        {
+        border: none;
+    }
+
+    .wps-rma-form__wrapper .wps_rma_product_table_wrapper tr td {
+        border: none;
+    }
+
+    .wps-rma-form__wrapper td.product-select img {
+        margin: 0;
+    }
+
+    .wps-rma-form__wrapper .order_details tbody tr:last-child td.product-quantity {
+        border-bottom: 1px solid #ccc;
+    }
+
+    .wps-rma-product__table tbody tr:last-of-type th {
+        padding: 15px 5px;
+    }
+
+    .wps-rma-product__table thead th:nth-of-type(1),
+    .wps_wrma_exchanged_products_wrapper thead th:nth-of-type(1) {
+        width: 100%;
+        border: none;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper,
+    .wps_wrma_exchanged_products_wrapper .wps-rma-product__table-wrapper {
+        display: block;
+        border-collapse: collapse;
+        min-width: unset;
+        max-width: unset;
+    }
+
+    .wps-rma-product__table thead th,
+    .wps_wrma_exchanged_products_wrapper thead th {
+        display: none;
+        border: none;
+    }
+
+    .wps-rma-product__table thead th.product-check,
+    .wps_wrma_exchanged_products_wrapper thead th:first-of-type {
+        display: block;
+        text-align: left;
+    }
+
+    .wps-rma-product__table tr {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table tbody tr td,
+    .wps-rma-form__wrapper .wps-rma-product__table tbody tr td.product-total {
+        border: none;
+        text-align: left;
+    }
+
+    .wps-rma-product__table tr td.product-name .wps-rma-product__wrap {
+        flex-direction: column !important;
+        align-items: flex-start;
+    }
+
+    .wps-rma-product__table td.product-name .wps-rma-product__wrap .wps-rma__product-title {
+        margin: 15px 0 0 0;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table tr td.product-select {
+        border-top: 1px solid #ccc;
+        padding-bottom: 0;
+    }
+
+    .wps-rma-product__table tbody tr td.product-name {
+        padding-top: 0;
+    }
+
+    .wps-rma-product__table tbody tr td.wps_rma_total_amount_wrap {
+        border: 1px solid #ccc;
+    }
+
+    div#wps_wrma_exchange_request_container .wps-rma-form__heading {
+        text-align: left;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper tr {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper tbody {
+        display: block;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper tr th {
+        text-align: left;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper .wps-rma-product__wrap {
+        flex-direction: column !important;
+        align-items: flex-start;
+        padding: 15px 0 0 0;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper .wps-rma-product__wrap .wps_wrma_product_title {
+        margin: 15px 0 0 0;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper tfoot {
+        display: block;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tr .wps_wrma_exchnaged_product_remove a {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 28px;
+        color: #333;
+        line-height: 1.25;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table-wrapper input[type=number],
+    .wps_wrma_exchanged_products_wrapper input[type=number] {
+        max-width: 150px;
+        margin: 0;
+    }
+
+    .wps_wrma_exchanged_products_wrapper .wps-rma-product__wrap {
+        border-top: 1px solid #dcdcdc;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tr {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tfoot tr th {
+        width: 100%;
+        border: none;
+    }
+
+    .wps_wrma_exchanged_products_wrapper .wps_wrma_exchanged_products tbody tr th,
+    .wps_wrma_exchanged_products_wrapper .wps_wrma_exchanged_products tbody tr td {
+        border: none;
+        text-align: left;
+    }
+
+    .wps_wrma_exchanged_products_wrapper .wps_wrma_exchanged_products tr td:first-of-type {
+        width: 100%;
+    }
+
+    .wps_wrma_exchanged_products_wrapper .wps_wrma_exchanged_products tr td .wps-rma-product__wrap {
+        padding: 15px 0;
+    }
+
+    .wps_wrma_exchanged_products_wrapper .wps_wrma_exchanged_products tfoot tr th {
+        text-align: left;
+    }
+
+    .wps-rma-form__wrapper tbody td.product-select,
+    .wps-rma-form__wrapper thead th.product-check {
+        text-align: left;
+    }
+
+    .wps_wrma_exchanged_products thead th:first-of-type {
+        position: relative;
+        color: transparent;
+    }
+
+    .wps_wrma_exchanged_products thead th:first-of-type:after {
+        content: 'Products';
+        position: absolute;
+        left: 15px;
+        color: #000;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(2):after,
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(3):after,
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(4):after {
+        content: 'Quantity';
+        position: absolute;
+        left: 6px;
+        top: 0;
+        font-weight: 600;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(2),
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(3),
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(4) {
+        padding-top: 30px;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(3):after {
+        content: 'Price';
+        top: 8px;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(4):after {
+        content: 'Total';
+        top: 8px;
+    }
+
+    .wps-rma-form__wrapper .exchange_product_table_footer th:first-child {
+        padding: 5px;
+    }
+
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(2),
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(3),
+    .wps_wrma_exchanged_products_wrapper tbody td:nth-of-type(4) {
+        position: relative;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table tbody td:nth-of-type(3),
+    .wps-rma-form__wrapper .wps-rma-product__table tbody td:nth-of-type(4) {
+        position: relative;
+        padding-top: 30px;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table tbody td:nth-of-type(3):after,
+    .wps-rma-form__wrapper .wps-rma-product__table tbody td:nth-of-type(4):after {
+        content: 'Quantity';
+        top: 2px;
+        left: 6px;
+        position: absolute;
+        font-weight: 600;
+    }
+
+    .wps-rma-form__wrapper .wps-rma-product__table tbody td:nth-of-type(4):after {
+        content: 'Total';
+        top: 6px;
+    }
+
+    .wps-rma-form__wrapper.wps_rma_refund_form_wrapper .wps_rma_product_title {
+        padding: 0;
+    }
+
+}
