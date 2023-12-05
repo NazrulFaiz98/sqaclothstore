@@ -1,0 +1,35 @@
+2023-12-05T14:53:13+00:00 INFO Array
+(
+    [template_type] => invoice
+    [default_template_status] => 1
+    [template_id] => 1
+)
+
+2023-12-05T14:53:13+00:00 INFO Array
+(
+    [template_type] => packinglist
+    [default_template_status] => 1
+    [template_id] => 2
+)
+
+2023-12-05T14:53:13+00:00 INFO Array
+(
+    [template_type] => shippinglabel
+    [default_template_status] => 1
+    [template_id] => 3
+)
+
+2023-12-05T14:53:13+00:00 INFO Array
+(
+    [template_type] => deliverynote
+    [default_template_status] => 1
+    [template_id] => 4
+)
+
+2023-12-05T14:53:13+00:00 INFO Array
+(
+    [template_type] => dispatchlabel
+    [default_template_status] => 1
+    [template_id] => 5
+)
+
